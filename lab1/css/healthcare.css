@@ -1,0 +1,47 @@
+.virtual_health_container{
+    display: flex;
+    justify-content: center;
+    row-gap: 120px;
+    margin-top: 8px;
+    background-image: url(/images/elements.svg);
+    background-position: left -45px top;
+    background-repeat: no-repeat;
+}
+
+.hero_inner{
+    flex-direction: column;    
+}
+
+.health_text{
+    margin-left: 190px;
+    margin-top: 190px;
+}
+
+.hero_picture{
+    margin-right: 160px;
+    margin-top: 84px;
+    padding-bottom:210px ;
+}
+
+#health_title{
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#health-paragraph{
+    color: #7D7987;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.consult-btn{
+    border-radius: 55px;
+    background: #458FF6;
+    border: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    height: 56px;
+    width: 200px;
+}
