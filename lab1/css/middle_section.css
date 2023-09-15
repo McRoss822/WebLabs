@@ -30,7 +30,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 212px;
+    padding-top: 170px;
 }
 
 .line-services{
@@ -49,8 +49,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/images/Vector.png), url(/images/elements.svg),url(/images/elements.svg);
-    background-position: right 747px top, right 70px top 320px, right bottom;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    padding-bottom: 100px;
+    background-image: url(/images/Vector.png), url(/images/elements.svg);
+    background-position: right 747px top, right 100px top 320px;
+    background-repeat: no-repeat, no-repeat;
 }

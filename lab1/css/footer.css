@@ -1,20 +1,19 @@
 .footer_container{
-    background-image: url(/images/bg.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: 200% 200%;
+    background-image: url(/images/elements.svg), url(/images/bg.png), url(/images/elements.svg);
+    background-position: left -20px bottom -20px, bottom, right 40px top 20px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
     margin-top: 100px;
 }
 
 .footer{
     display: flex;
+    padding-top: 150px;
 }
 
 .footer_nav ul{
     display: flex;
     justify-content: flex-end;
     justify-content: space-between;
-    margin-bottom: -10px;
 }
 
 .footer_bar_item{
@@ -25,9 +24,6 @@
 }
 
 .footer_logo{
-    background-image:url(/images/elements.svg);
-    background-repeat: no-repeat;
-    background-position: left bottom;
     /* margin-left: 227px; */
     padding-bottom: 10px;
     padding-left: 227px;
