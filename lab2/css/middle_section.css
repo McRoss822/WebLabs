@@ -1,0 +1,149 @@
+
+.middle-text{
+    flex-direction: column;
+    column-gap: 30px;
+    margin-left: 142px;
+}
+
+.middle_picture{
+    margin-left: 193px;
+}
+
+#middle_paragraph{
+    width:450px;
+    height:118px;
+}
+
+.middle_text_container{
+    display: flex;
+    max-width: 1400 px;
+}
+
+.learn_more-button{
+    border-radius: 55px;
+    color:#458FF6;
+    background: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    height: 56px;
+    width: 200px;
+    border-color: #458FF6;
+}
+
+.aa{
+    display: flex;
+    justify-content: center;
+}
+
+.our_services_block{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 170px;
+}
+
+.line-services{
+    margin-top: 26px;
+    margin-bottom: 33px;
+    height: 2px;
+    width: 56px;
+}
+
+.our_services_paragraph{
+    margin-left: 323px;
+    margin-right: 325px;
+    text-align: center;
+}
+
+.services{
+    background-image: url(/images/Vector.png), url(/images/elements.svg);
+    background-position: right 747px top, right 100px top 300px;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    gap:30px;
+}
+
+.icon-img{
+    margin-top:24px;
+    margin-left: 37px;
+}
+
+#icon{
+    border-radius: 20px;
+    background: #FFF;
+    width:354px;
+    height: 350px;
+}
+
+.icon_text{
+    margin-left: 39px;
+}
+
+.icon_text p{
+    font-size: 16px;
+    font-weight: 300;
+    height: 84px;
+    width: 261px;
+}
+
+.icon_text h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:768px) {
+
+    .middle_text_container{
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .middle-text{
+        margin: 10px auto;
+    }
+
+    .middle_picture{
+        margin: 0px;
+        height: 90%;
+        width: 90%;
+    }
+
+    .our_services_block{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .our_services_paragraph{
+        margin: 10px auto;
+    }
+
+    .icons{
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #icon{
+        width: 90%;
+        height: 90%;
+    }
+
+    .icon_text p{
+        text-align: center;
+        margin: 5px auto;
+    }
+
+    .aa{
+        padding-top: 20px;
+    }
+}
+
+

@@ -8,9 +8,6 @@
     background-repeat: no-repeat;
 }
 
-.hero_inner{
-    flex-direction: column;    
-}
 
 .health_text{
     margin-left: 190px;
@@ -44,4 +41,34 @@
     font-weight: 700;
     height: 56px;
     width: 200px;
+}
+
+@media screen and (max-width:768px) {
+    .virtual_health_container{
+        display:flex;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hero_picture{
+        justify-self: center;
+        margin:0%;
+        padding:10% auto;
+        width:90%;
+        height: 90%;
+        padding-bottom: 0;
+    }
+
+    .health_text{
+        margin: 0px;
+    }
+
+    .consult-btn{
+        align-self: center;
+    }
+
 }
