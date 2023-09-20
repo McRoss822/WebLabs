@@ -5,6 +5,11 @@
     margin-left: 142px;
 }
 
+.middle_container{
+    max-width: 1600px;
+    margin: auto;
+}
+
 .middle_picture{
     margin-left: 193px;
 }
@@ -98,6 +103,10 @@
 }
 
 @media screen and (max-width:768px) {
+
+    .middle_container{
+        padding-bottom: 40px;
+    }
 
     .middle_text_container{
         max-width: 768px;
