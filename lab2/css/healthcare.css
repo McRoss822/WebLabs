@@ -6,6 +6,8 @@
     background-image: url(/images/elements.svg);
     background-position: left -45px top;
     background-repeat: no-repeat;
+    max-width: 1600px;
+    margin: auto;
 }
 
 
