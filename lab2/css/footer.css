@@ -3,6 +3,8 @@
     background-position: left -20px bottom -20px, bottom, right 40px top 20px;
     background-repeat: no-repeat, no-repeat, no-repeat;
     margin-top: 100px;
+    max-width: 1600px;
+    margin:auto
 }
 
 .footer{

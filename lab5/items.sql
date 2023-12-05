@@ -1,0 +1,6 @@
+CREATE TABLE `cars` (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(30) NOT NULL,
+  engine_power INT UNSIGNED  NOT NULL,
+  PRIMARY KEY (id)
+);
